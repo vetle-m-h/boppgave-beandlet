@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon/favico_32x32.ico">
+    <title>Visualizer</title>
+</head>
+<body>
+    <nav>
+        <div id="logo"></div>
+        
+        <div class="button" onclick="toggle_search()" id="searchToggler" title="Show or hide the search field">Search<p></p></div>
+        
+        <div class="button" onclick="toggle_settings()" id="settingsToggler" title="Show or hide the settings">Settings<p id="icon"></p></div>
+        
+        <div class="button" onclick="toggle_info()" id="infoToggler" title="Show or hide the display legend">Information<p></p></div>
+    </nav>
+
+    <div id="settings">
+        <div id="scale">
+            <p>Scale the objects</p>
+            <input type="range" id="scaleInput" min="0.1" max="10" onchange="change_scale()">
+            <div class="button" onclick="reset_scale()">Reset</div>
+        </div>
+    </div>
+
+    <div class="wrapper" id="left">
+        <div id="inputDiv" class="hidden">
+            <input type="text" id="searchInput" autocomplete="off" onkeyup="search()" placeholder="Search..." title="Search through your processes">
+        </div>
+    </div>
+
+    <div class="wrapper" id="right">
+        <div class="button" id="toggleLeftButton" onclick="toggle_left()" title="Toggle the process list"><p></p></div>
+        <div id="path"></div>
+        <h3 id="pageLabel" title="Current Page"></h3>
+        <div id="displayParent">
+            <div id="display">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <!-- A marker to be used as an arrowhead -->
+                        <marker
+                        id="arrow"
+                        viewBox="0 0 10 10"
+                        refX="5"
+                        refY="5"
+                        markerWidth="6"
+                        markerHeight="6"
+                        orient="auto-start-reverse">
+                        <path d="M 0 0 L 10 5 L 0 10 z" />
+                        </marker>
+                    </defs>
+                </svg>
+                <div id="displayCenter"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="info" class="hiddenInfo">
+        <div id="wrapper" class="hiddenWrapper">
+            <div id="container">
+                <div class="detail" id="decision">
+                    <div class="summary">
+                        <div class="icon button" onclick="toggle_detail('decision')"></div>
+                        <h3>decision</h3>
+                        <div class="stageImage" name="decision"></div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est magna, suscipit eu neque in, sagittis tempor nisl. Morbi eu nibh et purus sodales consequat et aliquet lectus. Mauris tristique dolor sit amet mi iaculis, at facilisis sem ornare. Sed eleifend faucibus elit, nec condimentum tortor tincidunt quis. Proin sed magna convallis, condimentum sem ac, volutpat ipsum. In vel eros ligula. Nam tincidunt tellus vitae leo laoreet, sit amet luctus urna tristique. Fusce consequat tristique dapibus. Etiam efficitur, odio vitae mattis vulputate, felis ligula egestas elit, ac lobortis velit ex in justo. Fusce quis laoreet risus. Vestibulum cursus blandit leo ac dignissim. Nunc ut lobortis tortor, a hendrerit tortor. Mauris convallis enim ligula, eget pharetra ligula fermentum ac. Sed tempus, mi nec gravida congue, felis est bibendum ex, gravida euismod nisl tortor at augue. Integer mauris diam, pulvinar sit amet finibus a, vulputate quis lectus. 
+                        </p>
+                    </div>
+                </div>
+                <div class="detail" id="anchor">
+                    <div class="summary">
+                        <div class="icon button" onclick="toggle_detail('anchor')"></div>
+                        <h3>anchor</h3>
+                        <div class="stageImage" name="anchor"><p></p></div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est magna, suscipit eu neque in, sagittis tempor nisl. Morbi eu nibh et purus sodales consequat et aliquet lectus. Mauris tristique dolor sit amet mi iaculis, at facilisis sem ornare. Sed eleifend faucibus elit, nec condimentum tortor tincidunt quis. Proin sed magna convallis, condimentum sem ac, volutpat ipsum. In vel eros ligula. Nam tincidunt tellus vitae leo laoreet, sit amet luctus urna tristique. Fusce consequat tristique dapibus. Etiam efficitur, odio vitae mattis vulputate, felis ligula egestas elit, ac lobortis velit ex in justo. Fusce quis laoreet risus. Vestibulum cursus blandit leo ac dignissim. Nunc ut lobortis tortor, a hendrerit tortor. Mauris convallis enim ligula, eget pharetra ligula fermentum ac. Sed tempus, mi nec gravida congue, felis est bibendum ex, gravida euismod nisl tortor at augue. Integer mauris diam, pulvinar sit amet finibus a, vulputate quis lectus. 
+                        </p>
+                    </div>
+                </div>
+                <div class="detail" id="choice">
+                    <div class="summary">
+                        <div class="icon button" onclick="toggle_detail('choice')"></div>
+                        <h3>choice</h3>
+                        <div class="stageImage" name="choice">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est magna, suscipit eu neque in, sagittis tempor nisl. Morbi eu nibh et purus sodales consequat et aliquet lectus. Mauris tristique dolor sit amet mi iaculis, at facilisis sem ornare. Sed eleifend faucibus elit, nec condimentum tortor tincidunt quis. Proin sed magna convallis, condimentum sem ac, volutpat ipsum. In vel eros ligula. Nam tincidunt tellus vitae leo laoreet, sit amet luctus urna tristique. Fusce consequat tristique dapibus. Etiam efficitur, odio vitae mattis vulputate, felis ligula egestas elit, ac lobortis velit ex in justo. Fusce quis laoreet risus. Vestibulum cursus blandit leo ac dignissim. Nunc ut lobortis tortor, a hendrerit tortor. Mauris convallis enim ligula, eget pharetra ligula fermentum ac. Sed tempus, mi nec gravida congue, felis est bibendum ex, gravida euismod nisl tortor at augue. Integer mauris diam, pulvinar sit amet finibus a, vulputate quis lectus. 
+                        </p>
+                    </div>
+                </div>
+                <div class="detail" id="start">
+                    <div class="summary">
+                        <div class="icon button" onclick="toggle_detail('start')"></div>
+                        <h3>start</h3>
+                        <div class="stageImage" name="start">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est magna, suscipit eu neque in, sagittis tempor nisl. Morbi eu nibh et purus sodales consequat et aliquet lectus. Mauris tristique dolor sit amet mi iaculis, at facilisis sem ornare. Sed eleifend faucibus elit, nec condimentum tortor tincidunt quis. Proin sed magna convallis, condimentum sem ac, volutpat ipsum. In vel eros ligula. Nam tincidunt tellus vitae leo laoreet, sit amet luctus urna tristique. Fusce consequat tristique dapibus. Etiam efficitur, odio vitae mattis vulputate, felis ligula egestas elit, ac lobortis velit ex in justo. Fusce quis laoreet risus. Vestibulum cursus blandit leo ac dignissim. Nunc ut lobortis tortor, a hendrerit tortor. Mauris convallis enim ligula, eget pharetra ligula fermentum ac. Sed tempus, mi nec gravida congue, felis est bibendum ex, gravida euismod nisl tortor at augue. Integer mauris diam, pulvinar sit amet finibus a, vulputate quis lectus. 
+                        </p>
+                    </div>
+                </div>
+                <div class="detail" id="end">
+                    <div class="summary">
+                        <div class="icon button" onclick="toggle_detail('end')"></div>
+                        <h3>end</h3>
+                        <div class="stageImage" name="end">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est magna, suscipit eu neque in, sagittis tempor nisl. Morbi eu nibh et purus sodales consequat et aliquet lectus. Mauris tristique dolor sit amet mi iaculis, at facilisis sem ornare. Sed eleifend faucibus elit, nec condimentum tortor tincidunt quis. Proin sed magna convallis, condimentum sem ac, volutpat ipsum. In vel eros ligula. Nam tincidunt tellus vitae leo laoreet, sit amet luctus urna tristique. Fusce consequat tristique dapibus. Etiam efficitur, odio vitae mattis vulputate, felis ligula egestas elit, ac lobortis velit ex in justo. Fusce quis laoreet risus. Vestibulum cursus blandit leo ac dignissim. Nunc ut lobortis tortor, a hendrerit tortor. Mauris convallis enim ligula, eget pharetra ligula fermentum ac. Sed tempus, mi nec gravida congue, felis est bibendum ex, gravida euismod nisl tortor at augue. Integer mauris diam, pulvinar sit amet finibus a, vulputate quis lectus. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

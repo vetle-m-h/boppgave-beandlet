@@ -1,0 +1,900 @@
+﻿<process name="Rotete prosess" version="1.0" bpversion="6.10.2.42081" narrative="" byrefcollection="true" preferredid="b5c161e4-ae9d-440f-bf09-7991734f2c6b">
+  <view>
+    <camerax>0</camerax>
+    <cameray>294</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="24c8eead-ed4f-45a5-b560-364d325997ea" type="Normal" published="False">
+    <name>Page 9</name>
+    <view>
+      <camerax>27</camerax>
+      <cameray>253</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="63effca4-319a-4b61-8857-d566ea279b2e" type="Normal" published="False">
+    <name>Page 7</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="13564057-d117-4382-b7f9-0037f0cfb392" type="Normal" published="False">
+    <name>Page 8</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="79075f98-97bf-4846-8e05-11ae48c488d1" type="Normal" published="False">
+    <name>Page 1</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="f4ee66ed-126b-40e1-acb4-42bbccea2e55" type="Normal" published="False">
+    <name>Page 2</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="c88f0cd8-f85e-4e61-acb5-a60de3d5b875" type="Normal" published="False">
+    <name>Page 3</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="0b6b1a7b-5214-457a-818c-9cba8776457a" type="Normal" published="False">
+    <name>Page 4</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="83faed99-d9a9-410e-b899-bcfb7a58798e" type="Normal" published="False">
+    <name>Page 5</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="7c3610bc-06e6-43c7-9337-0356db807c5c" type="Normal" published="False">
+    <name>Page 6</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="950255b6-8f65-4f02-ae0a-b160e131ef45" name="Start" type="Start">
+    <display x="15" y="-105" />
+    <onsuccess>d5825999-a814-419e-9637-adae3e8b805e</onsuccess>
+  </stage>
+  <stage stageid="9832dd9b-c087-4ede-914b-5084ca5b2445" name="End" type="End">
+    <display x="15" y="660" />
+  </stage>
+  <stage stageid="ba52154c-76c8-4472-af1f-194e60d1d07a" name="Stage1" type="ProcessInfo">
+    <display x="-585" y="-90" w="150" h="90" />
+  </stage>
+  <stage stageid="d5825999-a814-419e-9637-adae3e8b805e" name="Choice1" type="ChoiceStart">
+    <display x="30" y="-30" />
+    <groupid>f41ccb4e-546e-4f51-9842-8cae0a19c3b8</groupid>
+    <choices>
+      <choice expression="">
+        <name>1</name>
+        <distance>46.25</distance>
+        <ontrue>c9b6d6ad-1293-42db-9154-4aa6760f2ae2</ontrue>
+      </choice>
+      <choice expression="">
+        <name>2</name>
+        <distance>92.5</distance>
+        <ontrue>8b784211-9b3e-40cd-bc50-3631d67dc547</ontrue>
+      </choice>
+      <choice expression="">
+        <name>3</name>
+        <distance>138.75</distance>
+        <ontrue>a635c2d4-a5a1-4bdd-8682-fec5afd8cd87</ontrue>
+      </choice>
+      <choice expression="">
+        <name>4</name>
+        <distance>185</distance>
+        <ontrue>2e858428-c12f-41ef-a229-040c339ae599</ontrue>
+      </choice>
+      <choice expression="">
+        <name>5</name>
+        <distance>231.25</distance>
+        <ontrue>f87d738c-d62a-4b25-9c91-4bd97a100b71</ontrue>
+      </choice>
+      <choice expression="">
+        <name>6</name>
+        <distance>277.5</distance>
+        <ontrue>85ce5699-11f6-4497-a67d-6aaeca2f5ccc</ontrue>
+      </choice>
+      <choice expression="">
+        <name>7</name>
+        <distance>323.75</distance>
+        <ontrue>eddab4a0-8ddd-4101-b21d-33087922d507</ontrue>
+      </choice>
+      <choice expression="">
+        <name>8</name>
+        <distance>370</distance>
+        <ontrue>a3ae9478-b08d-4d81-9f7e-aeb67283af20</ontrue>
+      </choice>
+      <choice expression="">
+        <name>9</name>
+        <distance>416.25</distance>
+        <ontrue>a3ae9478-b08d-4d81-9f7e-aeb67283af20</ontrue>
+      </choice>
+      <choice expression="">
+        <name>10</name>
+        <distance>462.5</distance>
+        <ontrue>670cb536-db58-4608-b2cf-9c7c82a175dc</ontrue>
+      </choice>
+      <choice expression="">
+        <name>11</name>
+        <distance>508.75</distance>
+        <ontrue>c2714c7a-3a50-464d-8fd1-b857617356e2</ontrue>
+      </choice>
+    </choices>
+  </stage>
+  <stage stageid="5df1062f-a32a-44d4-9052-75d1315fa147" name="Otherwise1" type="ChoiceEnd">
+    <display x="15" y="540" />
+    <onsuccess>79bd59c1-282b-4009-93c2-6e99a371c999</onsuccess>
+    <groupid>f41ccb4e-546e-4f51-9842-8cae0a19c3b8</groupid>
+  </stage>
+  <stage stageid="9210853f-a3dd-471d-8fce-4039817e758d" name="Page 1" type="SubSheetInfo">
+    <subsheetid>79075f98-97bf-4846-8e05-11ae48c488d1</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="bac8ddbb-9d1e-4be1-91df-9ec57bf4b7f6" name="Start" type="Start">
+    <subsheetid>79075f98-97bf-4846-8e05-11ae48c488d1</subsheetid>
+    <display x="15" y="-105" />
+    <inputs>
+      <input type="datetime" name="1" stage="1" />
+      <input type="datetime" name="2" stage="2" />
+      <input type="number" name="3" stage="3" />
+      <input type="password" name="4" stage="4" />
+    </inputs>
+    <onsuccess>ab0886eb-7f9c-4d28-a371-5a2f9df89f4e</onsuccess>
+  </stage>
+  <stage stageid="ab0886eb-7f9c-4d28-a371-5a2f9df89f4e" name="End" type="End">
+    <subsheetid>79075f98-97bf-4846-8e05-11ae48c488d1</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="1aafb4cd-3ff6-4d6c-9b3f-e2f95babdf70" name="Page 2" type="SubSheetInfo">
+    <subsheetid>f4ee66ed-126b-40e1-acb4-42bbccea2e55</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="4c77d2f4-d0e8-4406-aa72-4d211a9d5941" name="Start" type="Start">
+    <subsheetid>f4ee66ed-126b-40e1-acb4-42bbccea2e55</subsheetid>
+    <display x="15" y="-105" />
+    <onsuccess>7aa33096-9348-445c-a184-062e6e0099f6</onsuccess>
+  </stage>
+  <stage stageid="7aa33096-9348-445c-a184-062e6e0099f6" name="End" type="End">
+    <subsheetid>f4ee66ed-126b-40e1-acb4-42bbccea2e55</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="2080dd93-e9b7-414b-883b-f7b72ae6ba23" name="Page 3" type="SubSheetInfo">
+    <subsheetid>c88f0cd8-f85e-4e61-acb5-a60de3d5b875</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="77d55096-4aa7-4980-91a7-a9f3f6c56e56" name="Start" type="Start">
+    <subsheetid>c88f0cd8-f85e-4e61-acb5-a60de3d5b875</subsheetid>
+    <display x="15" y="-105" />
+    <onsuccess>e6d169b9-1451-4e7c-b420-be6635faa900</onsuccess>
+  </stage>
+  <stage stageid="e6d169b9-1451-4e7c-b420-be6635faa900" name="End" type="End">
+    <subsheetid>c88f0cd8-f85e-4e61-acb5-a60de3d5b875</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="70e980dc-1107-4b59-9d38-2599ab342fd4" name="Page 4" type="SubSheetInfo">
+    <subsheetid>0b6b1a7b-5214-457a-818c-9cba8776457a</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="eda51ea6-94b4-4f72-88e2-bd5c7423b6b8" name="Start" type="Start">
+    <subsheetid>0b6b1a7b-5214-457a-818c-9cba8776457a</subsheetid>
+    <display x="15" y="-105" />
+    <onsuccess>c4fe8643-33e0-403f-ac4b-a0751dff2871</onsuccess>
+  </stage>
+  <stage stageid="c4fe8643-33e0-403f-ac4b-a0751dff2871" name="End" type="End">
+    <subsheetid>0b6b1a7b-5214-457a-818c-9cba8776457a</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="7045fc31-4a45-42c0-b150-8fe0198491f5" name="Page 5" type="SubSheetInfo">
+    <subsheetid>83faed99-d9a9-410e-b899-bcfb7a58798e</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="56c8ddcf-8d87-4372-b060-b5e6c684ef88" name="Start" type="Start">
+    <subsheetid>83faed99-d9a9-410e-b899-bcfb7a58798e</subsheetid>
+    <display x="15" y="-105" />
+    <onsuccess>726d3303-977f-46fe-827f-f49e2d1de462</onsuccess>
+  </stage>
+  <stage stageid="726d3303-977f-46fe-827f-f49e2d1de462" name="End" type="End">
+    <subsheetid>83faed99-d9a9-410e-b899-bcfb7a58798e</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="f8520228-9f5c-4e89-8c1d-69638acdcf6e" name="Page 6" type="SubSheetInfo">
+    <subsheetid>7c3610bc-06e6-43c7-9337-0356db807c5c</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="ab8a98ce-cb9a-4a69-bf4c-4c66dfd617c6" name="Start" type="Start">
+    <subsheetid>7c3610bc-06e6-43c7-9337-0356db807c5c</subsheetid>
+    <display x="15" y="-105" />
+    <onsuccess>783eec10-bdf8-48d6-b2ed-c658dd3e844f</onsuccess>
+  </stage>
+  <stage stageid="783eec10-bdf8-48d6-b2ed-c658dd3e844f" name="End" type="End">
+    <subsheetid>7c3610bc-06e6-43c7-9337-0356db807c5c</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="c9b6d6ad-1293-42db-9154-4aa6760f2ae2" name="Page 1" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="180" y="-15" w="120" h="90" />
+    <onsuccess>86c5e27c-5e75-4d03-a69e-672a3b37aae6</onsuccess>
+    <processid>79075f98-97bf-4846-8e05-11ae48c488d1</processid>
+  </stage>
+  <stage stageid="8b784211-9b3e-40cd-bc50-3631d67dc547" name="Page 2" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-90" y="75" w="90" h="30" />
+    <onsuccess>9d28d3b6-0e6d-4ff9-871b-9ba6c5807a4b</onsuccess>
+    <processid>f4ee66ed-126b-40e1-acb4-42bbccea2e55</processid>
+  </stage>
+  <stage stageid="a635c2d4-a5a1-4bdd-8682-fec5afd8cd87" name="Page 3" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="135" y="90" w="90" h="60" />
+    <onsuccess>062ce984-eef3-40db-a046-303348427273</onsuccess>
+    <processid>c88f0cd8-f85e-4e61-acb5-a60de3d5b875</processid>
+  </stage>
+  <stage stageid="2e858428-c12f-41ef-a229-040c339ae599" name="Page 4" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="225" y="165" w="90" h="60" />
+    <onsuccess>3b6a9a56-a360-470a-8312-eafaf169fc04</onsuccess>
+    <processid>0b6b1a7b-5214-457a-818c-9cba8776457a</processid>
+  </stage>
+  <stage stageid="f87d738c-d62a-4b25-9c91-4bd97a100b71" name="Page 5" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-90" y="210" w="90" h="30" />
+    <onsuccess>1c6f2c70-ec8e-4c71-8f04-f69bfce369b2</onsuccess>
+    <processid>0b6b1a7b-5214-457a-818c-9cba8776457a</processid>
+  </stage>
+  <stage stageid="85ce5699-11f6-4497-a67d-6aaeca2f5ccc" name="Page 6" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="150" y="255" w="150" h="30" />
+    <onsuccess>c8bbdb4f-688f-4560-9611-770acadeeae6</onsuccess>
+    <processid>7c3610bc-06e6-43c7-9337-0356db807c5c</processid>
+  </stage>
+  <stage stageid="9e73b927-7371-4c59-8e25-81b50581f149" name="Page 7" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-180" y="360" w="120" h="60" />
+    <onsuccess>01f6ed61-acfb-4085-8581-b24e7bf5fd85</onsuccess>
+    <processid>63effca4-319a-4b61-8857-d566ea279b2e</processid>
+  </stage>
+  <stage stageid="a3ae9478-b08d-4d81-9f7e-aeb67283af20" name="Page 8" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="165" y="390" w="90" h="30" />
+    <onsuccess>bbaca576-62fc-49b2-aae1-7b8310738d66</onsuccess>
+    <processid>13564057-d117-4382-b7f9-0037f0cfb392</processid>
+  </stage>
+  <stage stageid="75fe0971-0359-409d-b90f-d386701da138" name="Page 7" type="SubSheetInfo">
+    <subsheetid>63effca4-319a-4b61-8857-d566ea279b2e</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="e933a0e4-72e8-4668-99bf-08b7e65faed4" name="Start" type="Start">
+    <subsheetid>63effca4-319a-4b61-8857-d566ea279b2e</subsheetid>
+    <display x="15" y="-105" />
+    <onsuccess>b29071e0-fb19-4956-9418-ad047ef74f8e</onsuccess>
+  </stage>
+  <stage stageid="b29071e0-fb19-4956-9418-ad047ef74f8e" name="End" type="End">
+    <subsheetid>63effca4-319a-4b61-8857-d566ea279b2e</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="e1a74e53-ca77-4d8f-81ba-384df801c59c" name="Page 8" type="SubSheetInfo">
+    <subsheetid>13564057-d117-4382-b7f9-0037f0cfb392</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="578af4ef-b5d1-41ac-bb57-856cc69bca70" name="Start" type="Start">
+    <subsheetid>13564057-d117-4382-b7f9-0037f0cfb392</subsheetid>
+    <display x="15" y="-105" />
+    <onsuccess>ed07877b-07dc-4b9a-96cd-3a9a689ae943</onsuccess>
+  </stage>
+  <stage stageid="ed07877b-07dc-4b9a-96cd-3a9a689ae943" name="End" type="End">
+    <subsheetid>13564057-d117-4382-b7f9-0037f0cfb392</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="670cb536-db58-4608-b2cf-9c7c82a175dc" name="Anchor1" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="75" y="450" w="10" h="10" />
+    <onsuccess>a3ae9478-b08d-4d81-9f7e-aeb67283af20</onsuccess>
+  </stage>
+  <stage stageid="c2714c7a-3a50-464d-8fd1-b857617356e2" name="Exception1" type="Exception">
+    <display x="150" y="510" w="120" h="60" />
+    <exception localized="yes" type="" detail="" />
+  </stage>
+  <stage stageid="8a8eef73-cd0c-4b36-8e93-9b5ca1da4aaa" name="Anchor2" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="-240" y="75" w="10" h="10" />
+    <onsuccess>391c1980-b88c-419c-a09b-82af4fa40f14</onsuccess>
+  </stage>
+  <stage stageid="391c1980-b88c-419c-a09b-82af4fa40f14" name="Anchor3" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="-315" y="195" w="10" h="10" />
+    <onsuccess>44bf8549-1f39-4fbe-b9f0-1b7e7c50c2d0</onsuccess>
+  </stage>
+  <stage stageid="44bf8549-1f39-4fbe-b9f0-1b7e7c50c2d0" name="Anchor4" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="-285" y="360" w="10" h="10" />
+    <onsuccess>530221df-37a3-4c33-bd25-2b24f62ec830</onsuccess>
+  </stage>
+  <stage stageid="86c5e27c-5e75-4d03-a69e-672a3b37aae6" name="Anchor5" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="345" y="-15" w="10" h="10" />
+    <onsuccess>50e8504a-41d5-4f03-b682-99e9737033ea</onsuccess>
+  </stage>
+  <stage stageid="50e8504a-41d5-4f03-b682-99e9737033ea" name="Anchor6" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="360" y="90" w="10" h="10" />
+    <onsuccess>3b6a9a56-a360-470a-8312-eafaf169fc04</onsuccess>
+  </stage>
+  <stage stageid="3b6a9a56-a360-470a-8312-eafaf169fc04" name="Anchor7" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="345" y="165" w="10" h="10" />
+    <onsuccess>c8bbdb4f-688f-4560-9611-770acadeeae6</onsuccess>
+  </stage>
+  <stage stageid="c8bbdb4f-688f-4560-9611-770acadeeae6" name="Anchor8" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="270" y="255" w="10" h="10" />
+    <onsuccess>f8b65c8e-bae8-4141-b24e-25124dc1bc50</onsuccess>
+  </stage>
+  <stage stageid="bbaca576-62fc-49b2-aae1-7b8310738d66" name="Anchor9" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="300" y="390" w="10" h="10" />
+    <onsuccess>1ca0ed01-5162-4e16-93fc-742c7cc808c3</onsuccess>
+  </stage>
+  <stage stageid="530221df-37a3-4c33-bd25-2b24f62ec830" name="Anchor10" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="-285" y="570" w="10" h="10" />
+    <onsuccess>79bd59c1-282b-4009-93c2-6e99a371c999</onsuccess>
+  </stage>
+  <stage stageid="79bd59c1-282b-4009-93c2-6e99a371c999" name="Anchor11" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="600" w="10" h="10" />
+    <onsuccess>9832dd9b-c087-4ede-914b-5084ca5b2445</onsuccess>
+  </stage>
+  <stage stageid="488c153b-0eb7-483c-8124-a046fe64e1d3" name="Anchor12" type="Anchor">
+    <loginhibit onsuccess="true" />
+    <display x="315" y="585" w="10" h="10" />
+    <onsuccess>44747459-10f8-472b-9353-82a74d364bbf</onsuccess>
+  </stage>
+  <stage stageid="323b4162-6ce8-46e3-b048-c32433f360a6" name="Block1" type="Block">
+    <loginhibit onsuccess="true" />
+    <display x="-375" y="-75" w="855" h="690" />
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="24569562-7dfd-4bc3-88cd-a4f757d09e84" name="Recover1" type="Recover">
+    <loginhibit />
+    <display x="420" y="-15" />
+    <onsuccess>ff5bebed-3192-4f42-8629-179dd1c3af43</onsuccess>
+  </stage>
+  <stage stageid="ff5bebed-3192-4f42-8629-179dd1c3af43" name="Page 6" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="585" y="-15" w="90" h="30" />
+    <onsuccess>bbf1fd05-d97e-4192-a300-bbb9d237f568</onsuccess>
+    <processid>24c8eead-ed4f-45a5-b560-364d325997ea</processid>
+  </stage>
+  <stage stageid="bbf1fd05-d97e-4192-a300-bbb9d237f568" name="Resume1" type="Resume">
+    <loginhibit />
+    <display x="585" y="45" />
+    <onsuccess>39fa03db-f13d-4cbb-9ce1-4815896890a6</onsuccess>
+  </stage>
+  <stage stageid="39fa03db-f13d-4cbb-9ce1-4815896890a6" name="End1" type="End">
+    <loginhibit onsuccess="true" />
+    <display x="585" y="90" />
+  </stage>
+  <stage stageid="9d28d3b6-0e6d-4ff9-871b-9ba6c5807a4b" name="Calendars::Add Working Days" type="Action">
+    <loginhibit onsuccess="true" />
+    <narrative>Adds the specified number of working days to a start date returning the result. In order to get the next working day after a known date, use a 'Days' value of 1. To get the previous working day, use a value of -1. Note that calling this action with a Days value of 0 will always return Start Date, regardless of whether that is a working day or not.</narrative>
+    <display x="-180" y="120" />
+    <inputs>
+      <input type="text" name="Calendar Name" friendlyname="Calendar Name" narrative="The name of the calendar defined in System Manager" expr="" />
+      <input type="date" name="Date" friendlyname="Date" narrative="The date to which the number of working days should be added" expr="" />
+      <input type="number" name="Days" friendlyname="Days" narrative="The number of days to be added. Note that a value of zero will always return Start Date, even if it is not a working day" expr="" />
+    </inputs>
+    <outputs>
+      <output type="date" name="Result Date" friendlyname="Result Date" narrative="The date with the specified number of days added to it" stage="" />
+    </outputs>
+    <onsuccess>8a8eef73-cd0c-4b36-8e93-9b5ca1da4aaa</onsuccess>
+    <resource object="clsCalendarsBusinessObject" action="Add Working Days" />
+  </stage>
+  <stage stageid="eddab4a0-8ddd-4101-b21d-33087922d507" name="Calendars::Get Other Holidays In Range" type="Action">
+    <loginhibit onsuccess="true" />
+    <narrative>Gets all the other holidays specified in a calendar which fall within the (inclusive) date range given</narrative>
+    <display x="-45" y="345" />
+    <inputs>
+      <input type="text" name="Calendar Name" friendlyname="Calendar Name" narrative="The name of the calendar defined in System Manager" expr="" />
+      <input type="date" name="First Date" friendlyname="First Date" narrative="The first date to consider other holidays from" expr="" />
+      <input type="date" name="Last Date" friendlyname="Last Date" narrative="The last date to consider other holidays until" expr="" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Other Holidays" friendlyname="Other Holidays" narrative="The other holidays which fall between the specified dates (inclusive)" stage="" />
+    </outputs>
+    <onsuccess>9e73b927-7371-4c59-8e25-81b50581f149</onsuccess>
+    <resource object="clsCalendarsBusinessObject" action="Get Other Holidays In Range" />
+  </stage>
+  <stage stageid="f8b65c8e-bae8-4141-b24e-25124dc1bc50" name="Collections::Copy Rows" type="Action">
+    <loginhibit onsuccess="true" />
+    <narrative>Gets all the other holidays specified in a calendar which fall within the (inclusive) date range given</narrative>
+    <display x="285" y="315" />
+    <inputs>
+      <input type="text" name="Collection Name" friendlyname="Collection Name" narrative="The name of the collection to act upon" expr="" />
+      <input type="number" name="Start Row" friendlyname="Start Row" narrative="The index of the first row to copy. The index is from 0 to N-1 (where N is the total number of rows in the collection)." expr="" />
+      <input type="number" name="End Row" friendlyname="End Row" narrative="The index of the last row to copy. The index is from 0 to N-1 (where N is the total number of rows in the collection)." expr="" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Result" friendlyname="Result" narrative="A collection which contains the rows copied from the input collection" stage="" />
+    </outputs>
+    <onsuccess>bbaca576-62fc-49b2-aae1-7b8310738d66</onsuccess>
+    <resource object="Blueprism.AutomateProcessCore.clsCollectionActions" action="Copy Rows" />
+  </stage>
+  <stage stageid="e2a30f27-6c22-48f2-bbc9-b9f9178e058b" name="1" type="Data">
+    <subsheetid>79075f98-97bf-4846-8e05-11ae48c488d1</subsheetid>
+    <display x="-750" y="-315" />
+    <datatype>datetime</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0c9bed43-904c-4c5b-aed3-eb02329daa6c" name="2" type="Data">
+    <subsheetid>79075f98-97bf-4846-8e05-11ae48c488d1</subsheetid>
+    <display x="645" y="315" />
+    <datatype>datetime</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="cbf0604b-af3e-468c-a57c-05d3c08b4886" name="3" type="Data">
+    <subsheetid>79075f98-97bf-4846-8e05-11ae48c488d1</subsheetid>
+    <display x="570" y="-330" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1d1eae6b-0283-4ade-9351-883127bc89cf" name="4" type="Data">
+    <subsheetid>79075f98-97bf-4846-8e05-11ae48c488d1</subsheetid>
+    <display x="-735" y="375" />
+    <datatype>password</datatype>
+    <initialvalueenc>
+    </initialvalueenc>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="01262957-f854-4260-94c8-bc37df86b181" name="Coll1" type="Collection">
+    <display x="-600" y="45" w="270" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="FF6600" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Todo" type="text" />
+    </collectioninfo>
+    <initialvalue>
+      <row>
+        <field name="Todo" type="text" value="1" />
+      </row>
+      <row>
+        <field name="Todo" type="text" value="2" />
+      </row>
+      <row>
+        <field name="Todo" type="text" value="3" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="2055aef9-e965-4df8-bf41-5854ebce19d6" name="Block2" type="Block">
+    <loginhibit onsuccess="true" />
+    <display x="-690" y="0" w="195" h="285" />
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="c0c6024a-1823-4598-bd28-d32ca6f6d350" name="Page 9" type="SubSheetInfo">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <display x="75" y="-90" w="150" h="90" />
+  </stage>
+  <stage stageid="b4391e0e-87c8-4552-bdfa-a7e010d6b6f7" name="Start" type="Start">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <display x="390" y="-195" />
+    <onsuccess>ba91a465-6878-4feb-8569-202d96f0da50</onsuccess>
+  </stage>
+  <stage stageid="d6166cc8-8fc4-44df-9bd6-5bcc72bc6fca" name="End" type="End">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <display x="390" y="765" />
+  </stage>
+  <stage stageid="ba91a465-6878-4feb-8569-202d96f0da50" name="Choice1" type="ChoiceStart">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <display x="390" y="-120" w="90" h="30" />
+    <groupid>c24cca53-fd44-4cbd-9893-3ddf532c6b25</groupid>
+    <choices>
+      <choice expression="">
+        <name>1</name>
+        <distance>60</distance>
+        <ontrue>a68a3cb0-94b0-4202-8667-323dc01d0266</ontrue>
+      </choice>
+      <choice expression="">
+        <name>2</name>
+        <distance>120</distance>
+        <ontrue>8dd2e260-8edf-418d-9e06-08ec90908bb2</ontrue>
+      </choice>
+      <choice expression="">
+        <name>3</name>
+        <distance>180</distance>
+        <ontrue>b3b19871-e4b9-4e07-8a60-74b8e6b3ddc7</ontrue>
+      </choice>
+      <choice expression="">
+        <name>4</name>
+        <distance>240</distance>
+        <ontrue>5793300c-265e-4b01-96e6-d780d4f9cf37</ontrue>
+      </choice>
+      <choice expression="">
+        <name>5</name>
+        <distance>300</distance>
+        <ontrue>cb628894-084c-4af0-b389-6bd74e2e365e</ontrue>
+      </choice>
+      <choice expression="">
+        <name>6</name>
+        <distance>360</distance>
+        <ontrue>a94b8171-6385-4789-801e-409b1db2ce97</ontrue>
+      </choice>
+      <choice expression="">
+        <name>7</name>
+        <distance>420</distance>
+        <ontrue>44a34765-6e52-4bb0-839e-39b1264a5a82</ontrue>
+      </choice>
+      <choice expression="">
+        <name>8</name>
+        <distance>480</distance>
+        <ontrue>ce5e603f-c0fb-498d-b77b-f8d2cb7ba2f6</ontrue>
+      </choice>
+      <choice expression="">
+        <name>9</name>
+        <distance>525</distance>
+        <ontrue>daf5417d-0f4e-4460-b9e9-3c6f7119968a</ontrue>
+      </choice>
+      <choice expression="">
+        <name>10</name>
+        <distance>600</distance>
+        <ontrue>4df8f0ed-ae8c-465b-bb05-aa4fa84bc291</ontrue>
+      </choice>
+      <choice expression="">
+        <name>11</name>
+        <distance>660</distance>
+        <ontrue>8089c5c1-7d56-4cd5-8a9c-45fd34213a19</ontrue>
+      </choice>
+    </choices>
+  </stage>
+  <stage stageid="9f4238cf-6d61-43dd-b363-cead865d6179" name="Otherwise1" type="ChoiceEnd">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <display x="390" y="600" w="90" h="30" />
+    <onsuccess>a9c63935-0313-4df5-99ce-4d6fde48267a</onsuccess>
+    <groupid>c24cca53-fd44-4cbd-9893-3ddf532c6b25</groupid>
+  </stage>
+  <stage stageid="a68a3cb0-94b0-4202-8667-323dc01d0266" name="Page 1" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="480" y="-60" w="90" h="60" />
+    <onsuccess>70b007b1-8f5c-41f1-899a-962ac7aab8f0</onsuccess>
+    <processid>79075f98-97bf-4846-8e05-11ae48c488d1</processid>
+  </stage>
+  <stage stageid="8dd2e260-8edf-418d-9e06-08ec90908bb2" name="Page 2" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="315" y="0" w="90" h="60" />
+    <onsuccess>429af0a5-d061-4426-8d16-d455aa7b1281</onsuccess>
+    <processid>f4ee66ed-126b-40e1-acb4-42bbccea2e55</processid>
+  </stage>
+  <stage stageid="b3b19871-e4b9-4e07-8a60-74b8e6b3ddc7" name="Page 3" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="480" y="60" w="90" h="60" />
+    <onsuccess>f9177334-c67e-4688-a558-efda418d281d</onsuccess>
+    <processid>c88f0cd8-f85e-4e61-acb5-a60de3d5b875</processid>
+  </stage>
+  <stage stageid="5793300c-265e-4b01-96e6-d780d4f9cf37" name="Page 4" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="480" y="120" w="90" h="60" />
+    <onsuccess>77731504-8acb-47eb-86d4-840115a6c625</onsuccess>
+    <processid>0b6b1a7b-5214-457a-818c-9cba8776457a</processid>
+  </stage>
+  <stage stageid="cb628894-084c-4af0-b389-6bd74e2e365e" name="Page 5" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="315" y="180" w="90" h="60" />
+    <onsuccess>a2ed3a02-006b-4f8f-adb2-e7a7d7fa55e2</onsuccess>
+    <processid>0b6b1a7b-5214-457a-818c-9cba8776457a</processid>
+  </stage>
+  <stage stageid="a94b8171-6385-4789-801e-409b1db2ce97" name="Page 6" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="480" y="240" w="90" h="60" />
+    <onsuccess>2b8df7bb-06d4-4e8a-ae00-c294c8235c76</onsuccess>
+    <processid>7c3610bc-06e6-43c7-9337-0356db807c5c</processid>
+  </stage>
+  <stage stageid="039218eb-1e4a-45ad-a6a0-cb55d5a08dd8" name="Page 7" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="315" y="360" w="90" h="60" />
+    <onsuccess>7fe07802-b817-4228-92ad-c14697317138</onsuccess>
+    <processid>63effca4-319a-4b61-8857-d566ea279b2e</processid>
+  </stage>
+  <stage stageid="4df8f0ed-ae8c-465b-bb05-aa4fa84bc291" name="Page 8" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="480" y="480" w="90" h="60" />
+    <onsuccess>431f7b55-0d9d-4285-bd0b-f26950550fc6</onsuccess>
+    <processid>13564057-d117-4382-b7f9-0037f0cfb392</processid>
+  </stage>
+  <stage stageid="ce5e603f-c0fb-498d-b77b-f8d2cb7ba2f6" name="Anchor1" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="480" y="360" w="10" h="10" />
+    <onsuccess>daf5417d-0f4e-4460-b9e9-3c6f7119968a</onsuccess>
+  </stage>
+  <stage stageid="8089c5c1-7d56-4cd5-8a9c-45fd34213a19" name="Exception1" type="Exception">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <display x="465" y="540" w="90" h="30" />
+    <exception localized="yes" type="" detail="" />
+  </stage>
+  <stage stageid="848a8eaa-0076-4f60-90fe-c0b0dfd814a2" name="Anchor2" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="240" y="60" w="10" h="10" />
+    <onsuccess>a2ed3a02-006b-4f8f-adb2-e7a7d7fa55e2</onsuccess>
+  </stage>
+  <stage stageid="a2ed3a02-006b-4f8f-adb2-e7a7d7fa55e2" name="Anchor3" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="240" y="180" w="10" h="10" />
+    <onsuccess>7fe07802-b817-4228-92ad-c14697317138</onsuccess>
+  </stage>
+  <stage stageid="7fe07802-b817-4228-92ad-c14697317138" name="Anchor4" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="240" y="360" w="10" h="10" />
+    <onsuccess>4b3d6dcf-05df-4d65-9118-9a8d29a156f0</onsuccess>
+  </stage>
+  <stage stageid="70b007b1-8f5c-41f1-899a-962ac7aab8f0" name="Anchor5" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="555" y="-60" w="10" h="10" />
+    <onsuccess>f9177334-c67e-4688-a558-efda418d281d</onsuccess>
+  </stage>
+  <stage stageid="f9177334-c67e-4688-a558-efda418d281d" name="Anchor6" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="555" y="60" w="10" h="10" />
+    <onsuccess>77731504-8acb-47eb-86d4-840115a6c625</onsuccess>
+  </stage>
+  <stage stageid="77731504-8acb-47eb-86d4-840115a6c625" name="Anchor7" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="555" y="120" w="10" h="10" />
+    <onsuccess>2b8df7bb-06d4-4e8a-ae00-c294c8235c76</onsuccess>
+  </stage>
+  <stage stageid="2b8df7bb-06d4-4e8a-ae00-c294c8235c76" name="Anchor8" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="555" y="240" w="10" h="10" />
+    <onsuccess>7cddecb0-9460-48b0-9402-15da7714b469</onsuccess>
+  </stage>
+  <stage stageid="431f7b55-0d9d-4285-bd0b-f26950550fc6" name="Anchor9" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="555" y="480" w="10" h="10" />
+    <onsuccess>142a6261-b55e-4839-854b-a37d256afeee</onsuccess>
+  </stage>
+  <stage stageid="4b3d6dcf-05df-4d65-9118-9a8d29a156f0" name="Anchor10" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="240" y="645" w="10" h="10" />
+    <onsuccess>a9c63935-0313-4df5-99ce-4d6fde48267a</onsuccess>
+  </stage>
+  <stage stageid="a9c63935-0313-4df5-99ce-4d6fde48267a" name="Anchor11" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="390" y="645" w="10" h="10" />
+    <onsuccess>d5df0bae-9597-40b3-8252-d6ac42ebc282</onsuccess>
+  </stage>
+  <stage stageid="142a6261-b55e-4839-854b-a37d256afeee" name="Anchor12" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="555" y="645" w="10" h="10" />
+    <onsuccess>a9c63935-0313-4df5-99ce-4d6fde48267a</onsuccess>
+  </stage>
+  <stage stageid="ff06904d-351a-40c1-a31d-d6ac50fd6543" name="Block1" type="Block">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="210" y="-150" w="450" h="825" />
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="4c669e2d-5f22-4b6f-b23c-a546d9f19bf1" name="Recover1" type="Recover">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit />
+    <display x="615" y="645" />
+    <onsuccess>80a58493-b651-4821-90a4-0f371279a53d</onsuccess>
+  </stage>
+  <stage stageid="80a58493-b651-4821-90a4-0f371279a53d" name="Page 6" type="SubSheet">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="615" y="720" w="90" h="60" />
+    <onsuccess>dbc3c9a2-3c9b-4cee-b771-ab43bd87ec7c</onsuccess>
+    <processid>7c3610bc-06e6-43c7-9337-0356db807c5c</processid>
+  </stage>
+  <stage stageid="dbc3c9a2-3c9b-4cee-b771-ab43bd87ec7c" name="Resume1" type="Resume">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit />
+    <display x="510" y="720" />
+    <onsuccess>d5df0bae-9597-40b3-8252-d6ac42ebc282</onsuccess>
+  </stage>
+  <stage stageid="429af0a5-d061-4426-8d16-d455aa7b1281" name="Calendars::Add Working Days" type="Action">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <narrative>Adds the specified number of working days to a start date returning the result. In order to get the next working day after a known date, use a 'Days' value of 1. To get the previous working day, use a value of -1. Note that calling this action with a Days value of 0 will always return Start Date, regardless of whether that is a working day or not.</narrative>
+    <display x="315" y="60" w="90" h="30" />
+    <inputs>
+      <input type="text" name="Calendar Name" friendlyname="Calendar Name" narrative="The name of the calendar defined in System Manager" expr="" />
+      <input type="date" name="Date" friendlyname="Date" narrative="The date to which the number of working days should be added" expr="" />
+      <input type="number" name="Days" friendlyname="Days" narrative="The number of days to be added. Note that a value of zero will always return Start Date, even if it is not a working day" expr="" />
+    </inputs>
+    <outputs>
+      <output type="date" name="Result Date" friendlyname="Result Date" narrative="The date with the specified number of days added to it" stage="" />
+    </outputs>
+    <onsuccess>848a8eaa-0076-4f60-90fe-c0b0dfd814a2</onsuccess>
+    <resource object="clsCalendarsBusinessObject" action="Add Working Days" />
+  </stage>
+  <stage stageid="44a34765-6e52-4bb0-839e-39b1264a5a82" name="Calendars::Get Other Holidays In Range" type="Action">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <narrative>Gets all the other holidays specified in a calendar which fall within the (inclusive) date range given</narrative>
+    <display x="315" y="300" w="90" h="30" />
+    <inputs>
+      <input type="text" name="Calendar Name" friendlyname="Calendar Name" narrative="The name of the calendar defined in System Manager" expr="" />
+      <input type="date" name="First Date" friendlyname="First Date" narrative="The first date to consider other holidays from" expr="" />
+      <input type="date" name="Last Date" friendlyname="Last Date" narrative="The last date to consider other holidays until" expr="" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Other Holidays" friendlyname="Other Holidays" narrative="The other holidays which fall between the specified dates (inclusive)" stage="" />
+    </outputs>
+    <onsuccess>039218eb-1e4a-45ad-a6a0-cb55d5a08dd8</onsuccess>
+    <resource object="clsCalendarsBusinessObject" action="Get Other Holidays In Range" />
+  </stage>
+  <stage stageid="7cddecb0-9460-48b0-9402-15da7714b469" name="Collections::Copy Rows" type="Action">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <narrative>Gets all the other holidays specified in a calendar which fall within the (inclusive) date range given</narrative>
+    <display x="555" y="315" w="90" h="30" />
+    <inputs>
+      <input type="text" name="Collection Name" friendlyname="Collection Name" narrative="The name of the collection to act upon" expr="" />
+      <input type="number" name="Start Row" friendlyname="Start Row" narrative="The index of the first row to copy. The index is from 0 to N-1 (where N is the total number of rows in the collection)." expr="" />
+      <input type="number" name="End Row" friendlyname="End Row" narrative="The index of the last row to copy. The index is from 0 to N-1 (where N is the total number of rows in the collection)." expr="" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Result" friendlyname="Result" narrative="A collection which contains the rows copied from the input collection" stage="" />
+    </outputs>
+    <onsuccess>431f7b55-0d9d-4285-bd0b-f26950550fc6</onsuccess>
+    <resource object="Blueprism.AutomateProcessCore.clsCollectionActions" action="Copy Rows" />
+  </stage>
+  <stage stageid="daf5417d-0f4e-4460-b9e9-3c6f7119968a" name="Anchor13" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="480" y="405" w="10" h="10" />
+    <onsuccess>4df8f0ed-ae8c-465b-bb05-aa4fa84bc291</onsuccess>
+  </stage>
+  <stage stageid="d5df0bae-9597-40b3-8252-d6ac42ebc282" name="Anchor14" type="Anchor">
+    <subsheetid>24c8eead-ed4f-45a5-b560-364d325997ea</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="390" y="720" w="10" h="10" />
+    <onsuccess>d6166cc8-8fc4-44df-9bd6-5bcc72bc6fca</onsuccess>
+  </stage>
+  <stage stageid="01f6ed61-acfb-4085-8581-b24e7bf5fd85" name="Page 9" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-180" y="450" w="60" h="90" />
+    <onsuccess>44bf8549-1f39-4fbe-b9f0-1b7e7c50c2d0</onsuccess>
+    <processid>24c8eead-ed4f-45a5-b560-364d325997ea</processid>
+  </stage>
+  <stage stageid="10070c31-5ab5-45a4-8328-61541ff1ed3c" name="Note1" type="Note">
+    <narrative>Jeg holder en tale for de tykke og smale. Blir talen for lang, slutter jeg med én gang. </narrative>
+    <display x="-270" y="-15" w="150" h="60" />
+  </stage>
+  <stage stageid="1c6f2c70-ec8e-4c71-8f04-f69bfce369b2" name="Sett meningen med livet" type="Calculation">
+    <loginhibit onsuccess="true" />
+    <display x="-210" y="210" w="90" h="30" />
+    <onsuccess>391c1980-b88c-419c-a09b-82af4fa40f14</onsuccess>
+    <calculation expression="&quot;42&quot;" stage="meningen med livet" />
+  </stage>
+  <stage stageid="7dd61d3c-0a1c-4bc7-a0c4-1aedf9b8c650" name="meningen med livet" type="Data">
+    <display x="-600" y="75" w="150" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="062ce984-eef3-40db-a046-303348427273" name="Recursive much?" type="Process">
+    <loginhibit onsuccess="true" />
+    <display x="270" y="90" />
+    <font family="Segoe UI" size="10" style="Regular" color="FF6600" />
+    <onsuccess>50e8504a-41d5-4f03-b682-99e9737033ea</onsuccess>
+    <processid>b5c161e4-ae9d-440f-bf09-7991734f2c6b</processid>
+  </stage>
+  <stage stageid="44747459-10f8-472b-9353-82a74d364bbf" name="Er dette en stygg prosess?" type="Decision">
+    <display x="180" y="585" w="120" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="FF6600" />
+    <decision expression="True" />
+    <ontrue>79bd59c1-282b-4009-93c2-6e99a371c999</ontrue>
+    <onfalse>f5acc97a-9270-4e04-9769-fe243cb98e84</onfalse>
+  </stage>
+  <stage stageid="f5acc97a-9270-4e04-9769-fe243cb98e84" name="Too pretty" type="Exception">
+    <display x="180" y="645" w="90" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="0000FF" />
+    <exception localized="yes" type="" detail="" />
+  </stage>
+  <stage stageid="1ca0ed01-5162-4e16-93fc-742c7cc808c3" name="How to get rich - South Park style" type="MultipleCalculation">
+    <loginhibit onsuccess="true" />
+    <display x="390" y="390" w="90" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="0000FF" />
+    <onsuccess>d972781d-96db-4971-888d-c12ecdd1ca91</onsuccess>
+    <steps>
+      <calculation expression="Start Up" stage="Plan" />
+      <calculation expression="Cash In" stage="Plan" />
+      <calculation expression="Sell Out" stage="Plan" />
+      <calculation expression="Bro Down" stage="Plan" />
+    </steps>
+  </stage>
+  <stage stageid="dc48a3bd-c5c7-4b5d-80e2-8266ef60f14e" name="Plan" type="Data">
+    <display x="-600" y="105" w="150" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="800080" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d972781d-96db-4971-888d-c12ecdd1ca91" name="Loop Start1" type="LoopStart">
+    <loginhibit onsuccess="true" />
+    <display x="390" y="450" w="90" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="800080" />
+    <onsuccess>0c86eca1-a167-4a8d-9d20-38e74f8bcdab</onsuccess>
+    <groupid>0d27044e-500d-4350-9588-ef8a1f04b862</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>Coll1</loopdata>
+  </stage>
+  <stage stageid="b8505783-6c84-40e0-8eb8-4fc9bde1d9c2" name="Loop End1" type="LoopEnd">
+    <loginhibit onsuccess="true" />
+    <display x="390" y="585" w="90" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="800080" />
+    <onsuccess>488c153b-0eb7-483c-8124-a046fe64e1d3</onsuccess>
+    <groupid>0d27044e-500d-4350-9588-ef8a1f04b862</groupid>
+  </stage>
+  <stage stageid="0c86eca1-a167-4a8d-9d20-38e74f8bcdab" name="Sett call for a good time" type="Calculation">
+    <loginhibit onsuccess="true" />
+    <display x="390" y="495" />
+    <font family="Segoe UI" size="10" style="Regular" color="800080" />
+    <onsuccess>b8505783-6c84-40e0-8eb8-4fc9bde1d9c2</onsuccess>
+    <calculation expression="81549300" stage="Call for a good time" />
+  </stage>
+  <stage stageid="30c25f68-f9d5-479d-b7b4-c3516840ed33" name="Call for a good time" type="Data">
+    <display x="-600" y="150" w="150" h="30" />
+    <font family="Segoe UI" size="10" style="Regular" color="800080" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+</process>

@@ -1,0 +1,44 @@
+services:
+  python:
+    build: .
+    container_name: python-server
+    ports:
+      - 8000:8000
+    volumes:
+      - ./Backend:/code
+  
+  mysqldb-sens:
+    image: mysql
+    container_name: mysqldb-sens-server
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=Password-123
+    volumes:
+      - mysql-sens:/var/lib/mysql
+      - mysql-sens_config:/etc/mysql
+
+  mysqldb-filt:
+    image: mysql
+    container_name: mysqldb-filt-server
+    ports:
+      - 3307:3307
+    environment:
+      - MYSQL_ROOT_PASSWORD=Password-123
+    volumes:
+      - mysql-filt:/var/lib/mysql
+      - mysql-filt_config:/etc/mysql
+
+  frontend:
+    image: nginx:latest
+    container_name: frontend-server
+    ports:
+      - "8080:80"
+    volumes:
+      - ./Frontend:/usr/share/nginx/html
+
+volumes:
+  mysql-sens:
+  mysql-sens_config:
+  mysql-filt:
+  mysql-filt_config:
